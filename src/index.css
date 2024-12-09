@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 1:- inline css 
+   2:- external css
+   3:- component libraries
+   4:- tailwind css :- less bundle size , flexible ui 
+*/

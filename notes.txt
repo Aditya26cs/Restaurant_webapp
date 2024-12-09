@@ -1,0 +1,14 @@
+pwd -> for checking the current path
+
+Virtual dom is the representation of actual dom
+What is the Diff Algorithm in React?
+The diff algorithm is part of the reconciliation process that React uses to figure out how to efficiently update the Real DOM when changes occur in the Virtual DOM. React doesn’t update the entire UI every time something changes; instead, it intelligently determines the minimum number of updates necessary
+ 
+Why is Diffing Needed?
+Directly updating the Real DOM is slow. To avoid unnecessary updates, React uses a Virtual DOM, which is a lightweight copy of the actual DOM. When there are changes in the UI, React creates a new Virtual DOM and compares it to the previous one. The diffing algorithm identifies the changes (differences) between the old and new Virtual DOM and only updates the parts of the actual DOM that have changed.
+
+"A config-driven UI allows the structure and layout of a UI to be dynamically generated based on a configuration file, like JSON or YAML. The UI components are not hardcoded; instead, they are defined in this config file. This makes the application more flexible and scalable because changes to the UI can be made by updating the config without modifying the code.
+
+ 
+
+ 
